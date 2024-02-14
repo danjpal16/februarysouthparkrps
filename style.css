@@ -1,0 +1,18 @@
+body {
+    background-image: url('phonescreen.jpg');
+    background-repeat: no-repeat;
+  }
+  
+  @media (min-width: 576px) {
+    body {
+      background-image: url('desktopscreen.jpg');
+    }
+  }
+
+h1 {
+    font-family: "Smokum", serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 75px;
+    text-shadow: 3px 3px 6px rgb(175, 111, 38);
+}
