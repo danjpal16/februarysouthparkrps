@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 750px) {
     body {
       background-image: url('desktopscreen.jpg');
     }
@@ -15,4 +15,16 @@ h1 {
     text-align: center;
     font-size: 75px;
     text-shadow: 3px 3px 6px rgb(175, 111, 38);
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.score1 {
+  justify-content: center;
 }
