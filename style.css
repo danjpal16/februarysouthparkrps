@@ -30,6 +30,7 @@ h1 {
 }
 
 .imgs {
-  height: 220px;
-  width: 220px;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
 }
