@@ -18,8 +18,8 @@ h1 {
 }
 
 .dot {
-  height: 50px;
-  width: 50px;
+  height: 65px;
+  width: 65px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -30,7 +30,20 @@ h1 {
 }
 
 .imgs {
-  height: 100px;
-  width: 100px;
+  height: 55%;
+  width: 55%;
+  border: 2px solid black;
+  display:block;
+  margin:auto;
   justify-content: center;
+}
+
+button {
+  width: 55%;
+  height: auto;
+  border: 2px solid black;
+  display:block;
+  margin:auto;
+  font-family: "Smokum", serif;
+  text-align: center;
 }
