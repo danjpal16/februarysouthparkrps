@@ -48,11 +48,28 @@ button {
   text-align: center;
 }
 
-.name {
-  font-family: "Smokum", serif;
-  font-weight: 400;
-  font-size: 225%;
-  width: 100px;
+.img2{
+  height: 55%;
+  width: 55%;
+  display:block;
+  margin:auto;
+  justify-content: center;
+}
+
+
+h2 {
   background-color: white;
+  width: 55%;
+  height: auto;
   border: 2px solid black;
+  display:block;
+  margin:auto;
+  font-family: "Smokum", serif;
+  text-align: center;
+}
+
+.img3 {
+  display:block;
+  margin:auto;
+  justify-content: center;
 }
