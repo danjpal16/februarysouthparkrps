@@ -13,7 +13,6 @@ h1 {
     font-family: "Smokum", serif;
     font-weight: 400;
     text-align: center;
-    font-size: 75px;
     text-shadow: 3px 3px 6px rgb(175, 111, 38);
 }
 
@@ -49,8 +48,8 @@ button {
 }
 
 .img2{
-  height: 55%;
-  width: 55%;
+  height: 65%;
+  width: 65%;
   display:block;
   margin:auto;
   justify-content: center;
@@ -72,4 +71,19 @@ h2 {
   display:block;
   margin:auto;
   justify-content: center;
+}
+
+.htpbutton {
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+  margin: auto;
+  font-family: "Smokum", serif;
+  text-align: center;
+}
+
+.htph1 {
+    font-family: "Smokum", serif;
+    font-weight: 400;
+    text-align: center;
 }
