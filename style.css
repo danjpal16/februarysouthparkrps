@@ -9,7 +9,7 @@ body {
     }
   }
 
-h1 {
+.th1 {
     font-family: "Smokum", serif;
     font-weight: 400;
     text-align: center;
@@ -83,7 +83,19 @@ h2 {
 }
 
 .htph1 {
-    font-family: "Smokum", serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     text-align: center;
+}
+
+.htph12 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 150%;
+}
+
+ol {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 100%;
 }
