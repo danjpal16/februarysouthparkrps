@@ -72,21 +72,8 @@
 
 
   <div class="row text-center score1">
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
+    <h2 id="displayUserScore" class="display-4 col-3">Your Score:</h2>
+    <h2 id="displayComputerScore" class="display-4 col-3">Computer Score:</h2>
   </div>
 
 
@@ -94,15 +81,15 @@
   <div class="row text-center score1">
     <div class="col-4">
       <img src="rock2.jpg" class="imgs img-fluid">
-      <button class="display-6">rock</button>
+      <button class="display-6" onclick="playGame('rock')">rock</button>
     </div>
     <div class="col-4">
       <img src="paper.jpg" class="imgs img-fluid">
-      <button class="display-6">paper</button>
+      <button class="display-6" onclick="playGame('paper')">paper</button>
     </div>
     <div class="col-4">
       <img src="scissors.jpg" class="imgs img-fluid">
-      <button class="display-6">scissors</button>
+      <button class="display-6" onclick="playGame('scissors')">scissors</button>
     </div>
   </div>
 
@@ -126,9 +113,26 @@
 
 
   <div class="row text-center score1 my-3">
+    
     <div class="col-4">
-      <h2 class="display-4 ">VS</h2>
+      <h2 id="displayUserChoice" class="display-4"></h2>
     </div>
+    
+    
+    
+    <div class="col-4">
+      <h2  id="winnerChoice"  class="display-4">VS</h2>
+    </div>
+
+
+    <div class="col-4">
+      <h2 id="displayComputerChoice" class="display-4"></h2>
+    </div>
+
+
+
+
+
   </div>
 
 
@@ -145,23 +149,7 @@
   </div>
 
 
-  <div class="row text-center score1">
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
-    <div class="col-2">
-      <span class="dot"></span>
-    </div>
-  </div>
+  
 
 
 
