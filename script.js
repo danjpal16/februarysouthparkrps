@@ -15,17 +15,17 @@ let computerChoiceText = document.getElementById("displayComputerChoice");
 function playGame(userChoice) {
   let randomNumber = Math.floor(Math.random() * computerChoiceArray.length);
   document.getElementById('displayComputerChoice').innerText = computerChoiceArray[randomNumber];
-  
+
   // Convert the userChoice to lower case for consistency
   userChoice = userChoice.toLowerCase();
-  
+
   // Display the user's choice
   userChoiceText.innerText = userChoice;
-  
+
   // Check for a tie
   if (userChoice === computerChoiceArray[randomNumber]) {
     document.getElementById("winnerChoice").innerText = "tie";
-    
+
   }
   // Check if the user wins
   else if (
@@ -44,30 +44,11 @@ function playGame(userChoice) {
 
   if (userScore === 6) {
     document.getElementById("displayKenny").src = "deadkenny.png";
-    openModal();
+    document.getElementById("winnerChoice").innerText = "You Won! Click on Kenny's Dead Body to Continue";
   }
 
-  if (compScore ===6) {
+  if (compScore === 6) {
     document.getElementById("displayKenny").src = "pkenny.webp";
-    openModal();
+    document.getElementById("winnerChoice").innerText = "You Lost! Click on Princess Kenny to Continue";
   }
-  // Function to open the modal
-function openModal() {
-  let modal = document.getElementById("winnerModal");
-  modal.style.display = "block";
-}
-
-// Function to close the modal
-function closeModal() {
-  let modal = document.getElementById("winnerModal");
-  modal.style.display = "none";
-}
-
-// Close the modal if the user clicks outside of it
-window.onclick = function(event) {
-  let modal = document.getElementById("winnerModal");
-  if (event.target == modal) {
-    closeModal();
-  }
-}
 }
