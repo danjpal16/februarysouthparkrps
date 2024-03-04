@@ -47,7 +47,7 @@ button {
   text-align: center;
 }
 
-.img2{
+.imgs2{
   height: 65%;
   width: 65%;
   display:block;
@@ -58,7 +58,7 @@ button {
 
 h2 {
   background-color: white;
-  width: 55%;
+  width: 65%;
   height: auto;
   border: 2px solid black;
   display:block;
