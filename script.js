@@ -41,6 +41,33 @@ function playGame(userChoice) {
     document.getElementById("winnerChoice").innerText = "lose";
     document.getElementById("displayComputerScore").innerText = "Computer Score: " + compScore++
   }
+
+  if (userScore === 6) {
+    document.getElementById("displayKenny").src = "deadkenny.png";
+    openModal();
+  }
+
+  if (compScore ===6) {
+    document.getElementById("displayKenny").src = "pkenny.webp";
+    openModal();
+  }
+  // Function to open the modal
+function openModal() {
+  let modal = document.getElementById("winnerModal");
+  modal.style.display = "block";
 }
 
+// Function to close the modal
+function closeModal() {
+  let modal = document.getElementById("winnerModal");
+  modal.style.display = "none";
+}
 
+// Close the modal if the user clicks outside of it
+window.onclick = function(event) {
+  let modal = document.getElementById("winnerModal");
+  if (event.target == modal) {
+    closeModal();
+  }
+}
+}

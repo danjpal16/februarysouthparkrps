@@ -68,6 +68,37 @@
 </div>
 
 
+<div class="modal fade" id="winnerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 htph1" id="exampleModalLabel">How to Play</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="EricCartman.png" alt="">
+        <h1 class="htph12">Hi there, my name is eric and today I will teach you how to play rock, papper, scissors:</h1>
+        <ol>
+          <li>Choose either rock, paper, or scissors</li>
+          <li>Rock beats Scissors</li>
+          <li>Scissors beats Paper</li>
+          <li>Paper beats Rock</li>
+          <li>Each round you win you get a point</li>
+          <li>Each round you lose you don't get a point</li>
+          <li>First to five points wins</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
 
 
@@ -144,9 +175,13 @@
   <div class="row text-center score1 my-1">
     <div class="col-4">
       <h2 class="display-4">Kenny</h2>
-      <img src="kenny-mccormick.png" class="imgs2 img-fluid">
+      <button onClick="window.location.reload();">
+        <img src="kenny-mccormick.png" class="imgs2 img-fluid" id="displayKenny">
+      </button>
     </div>
   </div>
+
+
 
 
   
